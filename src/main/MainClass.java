@@ -13,16 +13,17 @@ import Problems.*;
 // http://projecteuler.net/
 
 public class MainClass {
-    public static void main(String args[]) {
+    public static void calculateWorkTime(Integer count) {
         long startTime = System.currentTimeMillis();
-        //Problem_1.solution_1();
-        //Problem_2.solution_1();
-        //for (int i = 0; i < 1000; i++) {
-            //Problem_3.solution_3();
-            Problem_5.solution_1();
-        //}
+        for (int i = 0; i < count; i++) {
+            Problem_10.solution_1();
+        }
         long endTime = System.currentTimeMillis() - startTime;
         System.out.println("Time: " + endTime + " ms.");
+    }
+    public static void main(String args[]) {
+        calculateWorkTime(1);
+
 
     }
 }
