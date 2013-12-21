@@ -2,14 +2,6 @@ package main;
 
 import Problems.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Lekarto
- * Date: 18.12.13
- * Time: 11:51
- * To change this template use File | Settings | File Templates.
- */
-
 // http://projecteuler.net/
 
 public class MainClass {
@@ -22,7 +14,8 @@ public class MainClass {
         System.out.println("Time: " + endTime + " ms.");
     }
     public static void main(String args[]) {
-        calculateWorkTime(1);
+        //calculateWorkTime(1);
+        Problem_5.solution_1();
 
 
     }

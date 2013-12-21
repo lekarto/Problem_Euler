@@ -1,13 +1,5 @@
 package Problems;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Lekarto
- * Date: 18.12.13
- * Time: 16:12
- * To change this template use File | Settings | File Templates.
- */
-
 // Right answer: 906609
 
 public class Problem_4 {

@@ -2,14 +2,6 @@ package Problems;
 
 import java.util.ArrayList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Lekarto
- * Date: 19.12.13
- * Time: 12:39
- * To change this template use File | Settings | File Templates.
- */
-
 // Right answer: 104743
 
 public class Problem_7 {
