@@ -5,11 +5,11 @@ import java.util.ArrayList;
 // Right answer: 104743
 
 public class Problem_7 {
-    public static void solution_1() {
+    public static long solution_1(int numPrimeDigit) {
         ArrayList<Long> primeDigits = new ArrayList<Long>();
         primeDigits.add(primeDigits.size(), 2L);
         long i = 3, j;
-        while (primeDigits.size() < 10001) {
+        while (primeDigits.size() < numPrimeDigit) {
             j = (long)(0.5*i);
             if ( ((i % 2) == 0)) {
                 i++;
@@ -28,13 +28,14 @@ public class Problem_7 {
             i++;
         }
         System.out.println(primeDigits.get(primeDigits.size()-1));
+        return (primeDigits.get(primeDigits.size()-1));
     }
 
-    public static void solution_2() {
+    public static long solution_2(int numPrimeDigit) {
         long sum = 2;
         ArrayList<Integer> primes = new ArrayList<Integer>();
         primes.add(primes.size(), 2);
-        for (int i = 3; primes.size() < 10001; i += 2) {
+        for (int i = 3; primes.size() < numPrimeDigit; i += 2) {
             if ((i > 10) && ((i % 10) == 5)) {
                 continue;
             }
@@ -59,5 +60,14 @@ public class Problem_7 {
             }
         }
         System.out.println(primes.get(primes.size()-1));
+        return (primes.get(primes.size()-1));
+    }
+
+    public static long rightAnswer() {
+        return 104743;
+    }
+
+    public static int inputValue() {
+        return 10001;
     }
 }

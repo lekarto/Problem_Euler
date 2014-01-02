@@ -12,14 +12,23 @@ public class Problem_4 {
         return (res == value);
     }
 
-    public static void solution_1() {
-        for (int i = 999; i > 900; i--) {
-            for (int j = 999; j > 900; j--) {
+    public static long solution_1(int maxValue) {
+        for (int i = maxValue; i > (maxValue - 0.1*maxValue); i--) {
+            for (int j = maxValue; j > (maxValue - 0.1*maxValue); j--) {
                 if (isPolindrome(i*j)) {
-                    System.out.println("Polindrome: " + i*j);
-                    return;
+                    System.out.println(i*j);
+                    return i*j;
                 }
             }
         }
+        return -1;
+    }
+
+    public static long rightAnswer() {
+        return 906609;
+    }
+
+    public static int inputValue() {
+        return 999;
     }
 }

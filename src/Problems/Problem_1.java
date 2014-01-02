@@ -3,34 +3,22 @@ package Problems;
 // Right answer: 233168
 
 public class Problem_1 {
-    public static void solution_1() {
+    public static long solution_1(int upperValue) {
         long j, result = 0;
-        for (j = 1; j < 1000; j++) {
+        for (j = 1; j < upperValue; j++) {
             if (((j % 3) == 0) || ((j % 5) ==0) ) {
                 result += j;
             }
         }
-        System.out.println("Result: " + result);
+        System.out.println(result);
+        return result;
     }
 
-    public static void solution_2() {
-        long i = 0, j = 0, result = 0;
-        boolean cond = true;
-        result = 0;
-        cond = true;
-        j = 1;
-        while (cond) {
-            result += j*3;
-            j++;
-            cond = (((j*3) < 1000) );
-        }
-        cond = true;
-        j = 1;
-        while (cond) {
-            result += j*5;
-            j++;
-            cond = (((j*5) < 1000) );
-        }
-        System.out.println("Result: " + result);
+    public static int inputValue() {
+        return 1000;
+    }
+
+    public static long rightAnswer() {
+        return 233168;
     }
 }

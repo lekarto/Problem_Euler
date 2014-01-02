@@ -5,11 +5,11 @@ import java.util.ArrayList;
 // Right answer: 142913828922
 
 public class Problem_10 {
-    public static void solution_1() {
+    public static long solution_1(int highValue) {
         long sum = 2;
         ArrayList<Integer> primes = new ArrayList<Integer>();
         primes.add(primes.size(), 2);
-        for (int i = 3; i <= 2000000; i += 2) {
+        for (int i = 3; i <= highValue; i += 2) {
             if ((i > 10) && ((i % 10) == 5)) {
                 continue;
             }
@@ -34,5 +34,14 @@ public class Problem_10 {
             }
         }
         System.out.println(sum);
+        return sum;
+    }
+
+    public static long rightAnswer() {
+        return 142913828922L;
+    }
+
+    public static int inputValue() {
+        return 2000000;
     }
 }
