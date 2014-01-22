@@ -1,7 +1,5 @@
 package Problems;
 
-// Right answer: 31875000
-
 public class Problem_9 {
     public static long solution_1() {
         long res = -1;

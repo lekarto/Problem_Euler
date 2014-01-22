@@ -1,21 +1,6 @@
 package Problems;
 
-// Right answer: 70600674
-
 public class Problem_11 {
-
-    private static long getMax(long []ar) {
-        if (ar.length == 0) {
-            return Long.MIN_VALUE;
-        }
-        long max = ar[0];
-        for (int i = 1; i < ar.length; i++) {
-            if (ar[i] > max) {
-                max = ar[i];
-            }
-        }
-        return max;
-    }
 
     public static long solution_1(int[][] matr) {
 
@@ -25,12 +10,12 @@ public class Problem_11 {
             for (int j = 0; j < matr[i].length - 3; j++) {
                 long buf;
                 if (j >= 3) {
-                    buf = getMax(new long[]{ matr[i][j]*matr[i][j+1]*matr[i][j+2]*matr[i][j+3],
+                    buf = functions.getMax(new long[]{ matr[i][j]*matr[i][j+1]*matr[i][j+2]*matr[i][j+3],
                                              matr[i][j]*matr[i+1][j+1]*matr[i+2][j+2]*matr[i+3][j+3],
                                              matr[i][j]*matr[i+1][j]*matr[i+2][j]*matr[i+3][j],
                                              matr[i][j]*matr[i+1][j-1]*matr[i+2][j-2]*matr[i+3][j-3] });
                 } else {
-                    buf = getMax(new long[]{ matr[i][j]*matr[i][j+1]*matr[i][j+2]*matr[i][j+3],
+                    buf = functions.getMax(new long[]{ matr[i][j]*matr[i][j+1]*matr[i][j+2]*matr[i][j+3],
                                              matr[i][j]*matr[i+1][j+1]*matr[i+2][j+2]*matr[i+3][j+3],
                                              matr[i][j]*matr[i+1][j]*matr[i+2][j]*matr[i+3][j] });
                 }

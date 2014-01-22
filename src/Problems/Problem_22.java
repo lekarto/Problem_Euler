@@ -18,7 +18,6 @@ public class Problem_22 {
                 //В цикле построчно считываем файл
                 String s;
                 while ((s = in.readLine()) != null) {
-                    //val = s.split("\\s+");
                     names = s.split(",");
                     for (int i = 0; i < names.length; i++) {
                         names[i] = names[i].replaceAll("\"", "");

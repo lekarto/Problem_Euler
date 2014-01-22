@@ -2,8 +2,6 @@ package Problems;
 
 import java.math.BigInteger;
 
-// Right answer: 1366
-
 public class Problem_16 {
     public static long solution_1(int value) {
         BigInteger val = BigInteger.valueOf(1);

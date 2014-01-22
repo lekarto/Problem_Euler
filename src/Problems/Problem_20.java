@@ -2,8 +2,6 @@ package Problems;
 
 import java.math.BigInteger;
 
-// Right answer: 648
-
 public class Problem_20 {
     public static long solution_1(int factorial) {
         BigInteger fact = BigInteger.valueOf(1);

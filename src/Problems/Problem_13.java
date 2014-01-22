@@ -4,18 +4,8 @@ import java.io.*;
 import java.math.BigInteger;
 import java.util.ArrayList;
 
-// Right answer: 5537376230
-
 public class Problem_13 {
     public static long solution_1(ArrayList<BigInteger> ar) {
-
-        //ArrayList<BigInteger> ar = new ArrayList<BigInteger>();
-
-        /*try {
-            ar = readBigIntegerFromFile("problem_12.txt");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }*/
 
         BigInteger sum = BigInteger.valueOf(0);
         String ans;

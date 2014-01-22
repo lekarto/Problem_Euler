@@ -1,7 +1,5 @@
 package Problems;
 
-// Right answer: 232792560
-
 public class Problem_5 {
     public static long solution_1(int greatestDivisor) {
         long i = greatestDivisor*2;

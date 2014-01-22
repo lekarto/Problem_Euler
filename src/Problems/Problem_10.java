@@ -2,8 +2,6 @@ package Problems;
 
 import java.util.ArrayList;
 
-// Right answer: 142913828922
-
 public class Problem_10 {
     public static long solution_1(int highValue) {
         long sum = 2;

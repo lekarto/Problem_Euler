@@ -28,7 +28,7 @@ public class MainClass {
         }*/
         //calculateWorkTime(1);
         //Problem_22.solution_1(Problem_22.inputData("problem_22.txt"));
-        Problem_21.solution_1(Problem_21.inputValue());
+        Problem_23.solution_1();
 
     }
 }

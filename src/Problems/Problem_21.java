@@ -1,23 +1,14 @@
 package Problems;
 
 public class Problem_21 {
-    private static int sumOfDivisors(int val) {
-        int sum = 1;
-        for (int i = 2; i <= val/2; i++) {
-            if ((val % i) == 0) {
-                sum += i;
-            }
-        }
-        return sum;
-    }
 
     private static Boolean isAmbicable(int value) {
         boolean isAmbicable = false;
-        int sumDivisorsVal = sumOfDivisors(value);
+        int sumDivisorsVal = functions.sumOfDivisors(value);
         if (value == sumDivisorsVal) {
             return isAmbicable;
         }
-        int sumDivisorsValExt = sumOfDivisors(sumDivisorsVal);
+        int sumDivisorsValExt = functions.sumOfDivisors(sumDivisorsVal);
         if (sumDivisorsValExt == value) {
             isAmbicable = true;
         }

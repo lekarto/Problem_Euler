@@ -1,7 +1,5 @@
 package Problems;
 
-// Right answer: 233168
-
 public class Problem_1 {
     public static long solution_1(int upperValue) {
         long j, result = 0;

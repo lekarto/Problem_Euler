@@ -1,7 +1,5 @@
 package Problems;
 
-// Right answer: 25164150
-
 public class Problem_6 {
     public static long solution_1(int numOfNumbers) {
         long sum_square = 0, square_sum = 0, res;

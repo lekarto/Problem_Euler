@@ -2,8 +2,6 @@ package Problems;
 
 import java.util.ArrayList;
 
-// Right answer: 104743
-
 public class Problem_7 {
     public static long solution_1(int numPrimeDigit) {
         ArrayList<Long> primeDigits = new ArrayList<Long>();
@@ -32,7 +30,6 @@ public class Problem_7 {
     }
 
     public static long solution_2(int numPrimeDigit) {
-        long sum = 2;
         ArrayList<Integer> primes = new ArrayList<Integer>();
         primes.add(primes.size(), 2);
         for (int i = 3; primes.size() < numPrimeDigit; i += 2) {
@@ -45,7 +42,6 @@ public class Problem_7 {
                 int val = primes.get(j);
                 if (((val*val - 1) > i) ) {
                     primes.add(primes.size(), i);
-                    //sum += i;
                     cond = true;
                     break;
                 }
@@ -56,7 +52,6 @@ public class Problem_7 {
             }
             if (!cond) {
                 primes.add(primes.size(), i);
-                //sum += i;
             }
         }
         System.out.println(primes.get(primes.size()-1));

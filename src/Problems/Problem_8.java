@@ -1,7 +1,5 @@
 package Problems;
 
-// Right answer: 40824
-
 public class Problem_8 {
     public static long solution_1(String[] inputData) {
 
@@ -17,7 +15,6 @@ public class Problem_8 {
             j = 0;
             mul = 1;
             while (j < 5) {
-                char a = data.charAt(i+j);
                 mul *= Character.getNumericValue(data.charAt(i+j));
                 if (mul == 0) {
                     break;
