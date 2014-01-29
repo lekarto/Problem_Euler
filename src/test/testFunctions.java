@@ -49,4 +49,11 @@ public class testFunctions {
         Assert.assertFalse(functions.isPolindrome(65536));
         Assert.assertTrue(functions.isPolindrome(65556));
     }
+
+    @Test
+    public void testFactorial() {
+        Assert.assertTrue(1 == functions.factorial(1));
+        Assert.assertTrue(2432902008176640000L == functions.factorial(20));
+        Assert.assertTrue(-1 == functions.factorial(-100));
+    }
 }

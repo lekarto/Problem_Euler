@@ -131,4 +131,10 @@ public class functions {
         }
         return (res == value);
     }
+
+    public static long factorial(int n) {
+        if (n == 0) return 1;
+        if (n < 0) return -1;
+        return n * factorial(n-1);
+    }
 }

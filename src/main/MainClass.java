@@ -5,6 +5,7 @@ import Problems.*;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import java.util.ArrayList;
 
 // http://projecteuler.net/
 
@@ -28,7 +29,6 @@ public class MainClass {
         }*/
         //calculateWorkTime(1);
         //Problem_22.solution_1(Problem_22.inputData("problem_22.txt"));
-        Problem_28.solution_1(Problem_28.inputValue());
 
     }
 }
