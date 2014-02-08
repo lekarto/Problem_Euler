@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78673c5a-e7b4-4dd3-a040-fce96975b1b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+    <list default="true" id="78673c5a-e7b4-4dd3-a040-fce96975b1b9" name="Default" comment="Problem 40, solution and test.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Problem_1.iws" />
@@ -74,42 +73,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainClass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="72" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="700">
+            <state line="30" column="72" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.67689824" vertical-offset="81" max-vertical-offset="700">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem_1.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Problems/Problem_1.java">
+      <file leaf-file-name="Problem_58.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Problems/Problem_58.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06462035" vertical-offset="0" max-vertical-offset="619">
+            <state line="41" column="5" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem_40.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Problems/Problem_40.java">
+      <file leaf-file-name="testProblem_58.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/testProblem_58.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="900">
-              <folding>
-                <element signature="e#755#764#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testProblem_40.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/testProblem_40.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+            <state line="11" column="5" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="380">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#414#423#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +137,8 @@
         <option value="$PROJECT_DIR$/src/Problems/Problem_1.java" />
         <option value="$PROJECT_DIR$/src/Problems/Problem_40.java" />
         <option value="$PROJECT_DIR$/src/test/testProblem_40.java" />
+        <option value="$PROJECT_DIR$/src/Problems/Problem_58.java" />
+        <option value="$PROJECT_DIR$/src/test/testProblem_58.java" />
         <option value="$PROJECT_DIR$/src/main/MainClass.java" />
       </list>
     </option>
@@ -724,7 +713,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -734,7 +723,6 @@
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
@@ -748,15 +736,15 @@
       <created>1387360270520</created>
       <updated>1387360270520</updated>
       <workItem from="1391853522120" duration="231000" />
-      <workItem from="1391854970439" duration="2256000" />
+      <workItem from="1391854970439" duration="6915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2487000" />
+    <option name="totallyTimeSpent" value="7146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -960,13 +948,6 @@
         <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problems/functions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="29" selection-start="3799" selection-end="3799" vertical-scroll-proportion="0.522673" vertical-offset="2461" max-vertical-offset="2880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="59" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.5704057" vertical-offset="841" max-vertical-offset="1260">
@@ -988,18 +969,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Problems/Problem_40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="900">
-          <folding>
-            <element signature="e#755#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testProblem_40.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+        <state line="16" column="57" selection-start="426" selection-end="426" vertical-scroll-proportion="0.5169628" vertical-offset="0" max-vertical-offset="619">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#414#423#0" expanded="true" />
@@ -1007,16 +979,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Problems/Problem_40.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="72" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="700">
+        <state line="7" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="-0.22778675" vertical-offset="281" max-vertical-offset="900">
+          <folding>
+            <element signature="e#755#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="22" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testProblem_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="380">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/Problem_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Problems/Problem_28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="361" selection-end="632" vertical-scroll-proportion="0.77348065" vertical-offset="60" max-vertical-offset="760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Problems/Problem_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.06462035" vertical-offset="0" max-vertical-offset="619">
+        <state line="2" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.110497236" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="72" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.67689824" vertical-offset="81" max-vertical-offset="700">
           <folding />
         </state>
       </provider>
