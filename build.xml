@@ -1,0 +1,42 @@
+<project name="Project_Euler" default="build">
+
+    <property name="libs" value="../lib" />
+    <property name="src" value="src" />
+    <property name="out" value="deploy" />
+    <property name="out.bin" value="deploy/bin" />
+
+    <target name="build" depends="clean, init">
+        <echo message="Start target 'build'..." />
+        <javac srcdir="${src}" destdir="${out.bin}"
+               encoding="UTF-8"
+               includeantruntime="false" excludes="test">
+            <classpath>
+                <pathelement path="${libs}/junit-4.10-sources.jar" />
+                <pathelement path="${libs}/junit-4.10.jar" />
+                <pathelement path="${libs}/junit.jar" />
+            </classpath>
+        </javac>
+
+        <!--<java classname="MainClass" classpath="" /> -->
+
+        <jar destfile="${out}/problemEuler.jar">
+            <fileset dir="${out.bin}">
+                <include name="**/*.class" />
+                <exclude name="**/test*.class" />
+            </fileset>
+            <manifest>
+                <attribute name="Main-Class" value="main.MainClass" />
+            </manifest>
+        </jar>
+
+    </target>
+
+    <target name="clean">
+        <delete dir="${out}" />
+    </target>
+
+    <target name="init">
+        <mkdir dir="${out.bin}" />
+    </target>
+
+</project>
