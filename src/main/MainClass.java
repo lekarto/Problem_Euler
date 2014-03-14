@@ -32,7 +32,7 @@ public class MainClass {
         //calculateWorkTime(1);
         //Problem_22.solution_1(Problem_22.inputData("problem_22.txt"));
 
-        Problem_30.solution_1(Problem_30.inputValue());
+        Problem_15.solution_1(20, 20);
 
         /*JFrame fr = new JFrame("My Frame");
         fr.setSize(new Dimension(300, 400));

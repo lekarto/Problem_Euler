@@ -79,6 +79,9 @@ public class functions {
     }
 
     public static int countOfDivisor(long value) {
+        if (value == 0) {
+            return 0;
+        }
         long count = 1, k = 0, i;
         if ((value == 1) || (value == 2)) {
             return (int)value;
