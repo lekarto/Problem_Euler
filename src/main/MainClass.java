@@ -15,7 +15,7 @@ public class MainClass {
     public static void calculateWorkTime(Integer count) {
         long startTime = System.currentTimeMillis();
         for (int i = 0; i < count; i++) {
-            //Problem_12.solution_1(Problem_12.inputValue());
+            Problem_33.solution_1();
         }
         long endTime = System.currentTimeMillis() - startTime;
         System.out.println("Time: " + endTime + " ms.");
@@ -29,10 +29,9 @@ public class MainClass {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }*/
-        //calculateWorkTime(1);
-        //Problem_22.solution_1(Problem_22.inputData("problem_22.txt"));
+        calculateWorkTime(1);
 
-        Problem_15.solution_1(20, 20);
+//        Problem_32.solution_1();
 
         /*JFrame fr = new JFrame("My Frame");
         fr.setSize(new Dimension(300, 400));
